@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Contact Us - Space Exploration</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script type="text/javascript" src="contact.js" ></script>
+    <style>
+        html {
+            scroll-snap-type: y mandatory;
+            overflow: scroll;
+        }
+    </style>
+</head>
+
+<body>
+
+
+
+
+    <div class="timetravel-container">
+        <div class="navbar-timetravel">
+            <h1 class="logo">Astral Atlas</h1>
+            <div class="list">
+                <ul>
+                    <li><a href="index.htm">HOME</a></li>
+                    <li><a href="solar_sys.htm">SOLAR SYSTEM</a></li>
+                    <li><a href="gallery.htm">GALLERY</a></li>
+                    <li><a href="joinus.htm">USER ACCOUNT</a></li>
+
+                    <li><a href="#">MORE <span>&#9660;</span> </span> </a>
+                        <ul>
+                            <li><a href="mars.htm">MARS & BEYOND</a></li>
+                            <li><a href="timetravel.htm">TIME TRAVEL</a></li>
+                            <li><a href="blackhole.htm">BLACKHOLES</a></li>
+                            <li><a href="galaxies.htm">GALAXIES</a></li>
+                            <li><a href="blog.htm">BLOG</a></li>
+                            <li><a href="contact.htm">CONTACT US</a></li>
+                        </ul>
+                    </li>
+                    <!-- <li><a href="#">CONTACT US</a></li> -->
+                </ul>
+            </div>
+        </div>
+
+        <div class="contact-first">
+            <video class="timetravelvid" autoplay loop muted>
+                <source src="clips/space-43275.mp4" type="video/mp4">
+            </video>
+            <h2 class="timetravel-animation">CONTACT US</h2><br>
+            <p>We'd love to hear from you.</p>
+            <!-- <p class="p2">~ Albert Einstein.</p> -->
+            <input class="timetravel-button" type="submit" value="Let's Connect">
+        </div>
+
+        <div class="timetravel-second">
+            <div class="timetravel-second-left">
+                <h2 class="contacttxt">Let's Get In Touch!</h2>
+                <p>Welcome to our Contact Us page! We're thrilled to hear from you and eager to help with any questions, comments, or feedback you may have. Whether you want to share your experience with us, ask a question about our products or services, or just say hello, we're here for you. </p>
+
+                <p>Our team of dedicated experts is standing by to assist you in any way we can. We pride ourselves on providing exceptional customer service, and we're committed to ensuring that you have the best possible experience when you reach out to us.</p>
+                    
+                <p>So don't hesitate to get in touch! We're just a click, a call, or an email away. We can't wait to hear from you!.</p>
+                
+                <img class="social" src="images/vecteezy_facebook-instagram-twitter-logos-social-media-icons-set_19510885-removebg-preview.png" alt="">
+
+            </div>
+            <div class="contact-second-right">
+                <input type="button" value="Open Form" id="toggle">
+                <form action="#" id = "nform">
+                    <table>
+                       
+        
+                        <tr>
+                            <td><label for="">Name </label></td>
+                            <td><input type="text" id="rname"></td>
+                            <td id="res-name" class="inner-out"></td>
+                        </tr>
+                        
+                        <tr>
+                            <td><label for="">Address </label></td>
+                            <td><input type="text" id="raddress"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="">Country </label></td>
+                            <td>
+                                <select name="" id="rcountry">
+                                    <option value="" selected="selected" disabled="disabled">(Please select a country)</option>
+                                    <option>India</option>
+                                    <option>Japan</option>
+                                    <option>Pakistan</option>
+                                    <option>Korea</option>
+                                    <option>Indonesia</option>
+                                    <option>USA</option>
+                                    <option>UK</option>
+                                    <option>Canada</option>
+                                    <option>Australia</option>
+                                </select>
+                            </td>
+                            <td id="res-country" class="inner-out"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="">Phone Number </label></td>
+                            <td><input type="text" id="rzipcode"></td>
+                            <td id="res-zip" class="inner-out"> </td>
+                        </tr>
+                        <tr>
+                            <td><label for="">Email </label></td>
+                            <td><input type="email" id="remail"></td>
+                            <td id="res-email" class="inner-out"> </td>
+                        </tr>
+                        
+                        
+            
+                        <tr>
+                            <td><label for="">Message </label></td>
+                            <td><textarea name="" id="rabout" cols="35" rows="7"></textarea></td>
+                        </tr>
+            
+                        <tr>
+                            <td colspan="2" ><input type="button" onclick="validate()" class="submitbut" value="Submit" ></td>
+                            <!-- <td id="res-submit" class="inner-head"></td> -->
+                            
+                        </tr>
+            
+                    
+                </table>
+                </form>
+            </div></div>
+            <div class="map">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3431.3583482191198!2d76.72225166513022!3d30.68019213165552!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390fef611d162b5d%3A0x438dd30332da590!2sSebiz%20Square!5e0!3m2!1sen!2sin!4v1678347088776!5m2!1sen!2sin" id="location"></iframe>
+				</div>
+        <div class="footer2">
+
+            <div class="f1">
+                <h1>PLANETS</h1>
+                <p>Mercury</p>
+                <p>Venus</p>
+                <p>Earth</p>
+                <p>Mars</p>
+                <p>Jupiter</p>
+                <p>Saturn</p>
+                <p>Uranus</p>
+                <p>Neptune</p>
+
+
+            </div>
+            <div class="f2">
+                <h1>SOLAR SYSTEM</h1>
+                <p>Sun</p>
+                <p>Eclipses</p>
+                <p>Kuiper Belt</p>
+                <p>Oort Cloud</p>
+                <p>Comets</p>
+                <p>Meteors & Meteorites</p>
+                <p>Asteroids</p>
+
+            </div>
+            <div class="f3">
+                <h1>MORE</h1>
+                <p>News</p>
+                <p>Resources</p>
+                <p>Missions</p>
+                <p>Interactives</p>
+                <p>Raw Images</p>
+                <p>People</p>
+
+
+            </div>
+            <div class="f4">
+                <h1>STAY CONNECTED</h1>
+                <img class="png"
+                    src="images/vecteezy_facebook-instagram-twitter-logos-social-media-icons-set_19510885-removebg-preview.png"
+                    alt="">
+                <p></p>
+            </div>
+
+        </div>
+        <div class="last">
+            <!-- ABOUT US  BIBLIOGRAPHY  FEEDBACK  PRIVACY  IMAGE USE  NASA SCIENCE MISSION DIRECTORATE  NASA PORTAL  SITEMAP -->
+            <br>
+            <hr>
+            <p class="copyright">Copyright © 2023 Astral Atlas Inc. All rights reserved. &nbsp; &nbsp; &nbsp; &nbsp;
+                &nbsp; &nbsp; &nbsp;
+                &nbsp; &nbsp; &nbsp;&nbsp; About Us &nbsp; &nbsp;| &nbsp; &nbsp; Bibliography &nbsp; &nbsp;| &nbsp;
+                &nbsp; Feedback &nbsp; &nbsp;| &nbsp; &nbsp; Privacy &nbsp; &nbsp; |&nbsp; &nbsp; NASA &nbsp; &nbsp;|
+                &nbsp;
+                &nbsp; Directorate &nbsp; &nbsp;| &nbsp; &nbsp; Site Map &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp;
+                &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp;
+                &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;
+                &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;
+                &nbsp;&nbsp;
+                &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;
+                &nbsp;
+                &nbsp;India</p>
+            <hr>
+            <p class="lastline">Site maintained by Shashank Malhotra at Netsmartz Academy for Netsmartz’s Science
+                Mission Directorate.</p>
+        </div>
+    </div>
+    </div>
+
+    </div>
+</body>
+
+</html>
